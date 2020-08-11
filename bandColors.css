@@ -1,0 +1,36 @@
+/* Color classes for the 4 bandmates' signature colors */
+span.docSung, h1.docSung, h2.docSung, strong.docSung {
+    color: #ce6941;
+}
+
+div.docSung {
+    background-color: #ce6941;
+    border-color: #ce6941;
+}
+
+span.meouch, h1.meouch, h2.meouch, strong.meouch {
+    color: #2e60ac;
+}
+
+div.meouch {
+    background-color: #2e60ac;
+    border-color: #2e60ac;
+}
+
+span.phobos, h1.phobos, h2.phobos, strong.phobos {
+    color: #ca842d;
+}
+
+div.phobos {
+    background-color: #ca842d;
+    border-color: #ca842d;
+}
+
+span.havve, h1.havve, h2.havve, strong.havve {
+    color: #8DA7C2;
+}
+
+div.havve {
+    background-color: #8DA7C2;
+    border-color: #8DA7C2;
+}
