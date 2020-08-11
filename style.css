@@ -42,12 +42,35 @@ hr {
     margin: 0;
 }
 
+.gallery {
+    /* min-height: 800px; */
+    width: 849px;
+    table-layout: fixed;
+}
+
+.gallery * td {
+    width: 283px;
+}
+
+.gallery * tr {
+    height: 330px;
+}
+
 .gallery img {
     display:block;
     width: 250px;
     height: 250px;
     margin: 0 auto;
+    /* -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease; */
+    transition: all 0.5s ease;
 }
+.gallery img:hover {
+    width: 275px;
+    height: 275px;
+}
+
 .gallery a {
     font-size: medium;
     text-decoration: none;
@@ -59,7 +82,7 @@ hr {
 .gallery p {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
+/* =================================================== */
 /* Color classes for the 4 bandmates' signature colors */
 span.docSung, h1.docSung, h2.docSung, strong.docSung {
     color: #ce6941;
@@ -96,6 +119,8 @@ div.havve {
     background-color: #8DA7C2;
     border-color: #8DA7C2;
 }
+
+/* ================================================= */
 
 #logo {
     display: block;
