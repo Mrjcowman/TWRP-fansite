@@ -2,19 +2,16 @@ body {
     background-color: #ec96b1;
     color: #591e3a
 }
-h1 {
-    color: #BF5A62;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-h2 {
-    color: #BF5A62;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+h1, h2 {
+    color: #f2e0d0;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 600;
 }
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: 'Roboto', sans-serif;
 }
 a {
-    color: #F2E0D0
+    color: white
 }
 hr {
     height:2pt;
@@ -33,8 +30,8 @@ hr {
     background-color: #591e3a;
 }
 
-.content p {
-    color: white;
+.content p, .content li {
+    color: #D2C6C8;
 }
 
 .content h1 {
@@ -63,6 +60,43 @@ hr {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+/* Color classes for the 4 bandmates' signature colors */
+span.docSung, h1.docSung, h2.docSung, strong.docSung {
+    color: #ce6941;
+}
+
+div.docSung {
+    background-color: #ce6941;
+    border-color: #ce6941;
+}
+
+span.meouch, h1.meouch, h2.meouch, strong.meouch {
+    color: #2e60ac;
+}
+
+div.meouch {
+    background-color: #2e60ac;
+    border-color: #2e60ac;
+}
+
+span.phobos, h1.phobos, h2.phobos, strong.phobos {
+    color: #ca842d;
+}
+
+div.phobos {
+    background-color: #ca842d;
+    border-color: #ca842d;
+}
+
+span.havve, h1.havve, h2.havve, strong.havve {
+    color: #8DA7C2;
+}
+
+div.havve {
+    background-color: #8DA7C2;
+    border-color: #8DA7C2;
+}
+
 #logo {
     display: block;
     margin: 0 auto;
@@ -70,9 +104,11 @@ hr {
 
 #title {
     font-size: 60pt;
+    font-weight: 800;
     text-align: center;
     color: #f2e0d0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: #591e3a 0.03em;
+    text-shadow: #BF5A62;
 }
 
 #bandmates {
