@@ -17,11 +17,17 @@ a {
     color: #F2E0D0
 }
 
+.content {
+    width: 850px;
+    display: block;
+    margin: 0 auto;
+}
+
 .gallery img {
     display:block;
-    width: 250px; height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
 }
 .gallery a {
     font-size: medium;
@@ -33,4 +39,31 @@ a {
 }
 .gallery p {
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 60pt;
+    text-align: center;
+    color: #f2e0d0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bandmates {
+    width: 680px;
+    height: 280px;
+    display: block;
+    margin:0 auto;
+}
+
+#bandmates img {
+    object-fit: cover;
+    width: 680px;
+    height: 240px;
+    transform: scale(1.3);
+    margin-top: 20px;
 }
