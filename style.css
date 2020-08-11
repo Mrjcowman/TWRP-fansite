@@ -7,7 +7,7 @@ h1, h2 {
     font-family: 'Oxanium', sans-serif;
     font-weight: 600;
 }
-p {
+p, li{
     font-family: 'Roboto', sans-serif;
 }
 a {
@@ -126,12 +126,8 @@ div.havve {
     margin-top: 20px;
 }
 
-#footer {
-    height: 100px;
-}
-
 #footer p{
     vertical-align: middle;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: 40px auto;
+    text-align: center;
 }
