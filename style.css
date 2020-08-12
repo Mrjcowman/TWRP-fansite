@@ -1,9 +1,21 @@
+:root {
+    --pink-background: #ec96b1;
+    --raspberry-background: #591e3a;
+    --golden-light: #BF5A62;
+
+    --silver-foreground: #f2e0d0;
+}
+
 body {
-    background-color: #ec96b1;
-    color: #591e3a
+    background-color: pink;
+    background-color: var(--pink-background);
+
+    color: #591e3a;
+    color: var(--raspberry-background);
 }
 h1, h2 {
-    color: #f2e0d0;
+    color: whitesmoke;
+    color: var(--silver-foreground);
     font-family: 'Oxanium', sans-serif;
     font-weight: 600;
 }
@@ -11,12 +23,12 @@ p, li{
     font-family: 'Roboto', sans-serif;
 }
 a {
-    color: white
+    color: white;
 }
 hr {
     height:2pt;
     border:none;
-    background-color: #BF5A62;
+    background-color: var(--golden-light);
 }
 
 .content {
@@ -28,10 +40,15 @@ hr {
     border-radius: 30px;
     border-style: solid;
     border-color: #591e3a;
-    color: #D2C6C8;
-    background-color: #591e3a;
+    border-color: var(--raspberry-background);
 
-    box-shadow: 0 10px 20px 5px #BF5A62;
+    background-color: #591e3a;
+    background-color: var(--raspberry-background);
+
+    color: whitesmoke;
+    color: var(--silver-foreground);
+
+    box-shadow: 0 10px 20px 5px var(--golden-light);
 }
 
 .content h1 {
@@ -56,7 +73,7 @@ hr {
 }
 
 .gallery img {
-    display:block;
+    display: block;
     width: 250px;
     height: 250px;
     margin: 0 auto;
@@ -93,16 +110,19 @@ hr {
     font-size: 60pt;
     font-weight: 800;
     text-align: center;
-    color: #f2e0d0;
-    -webkit-text-stroke: #591e3a 0.03em;
-    text-shadow: #BF5A62;
+
+    color: whitesmoke;
+    color: var(--silver-foreground);
+
+    -webkit-text-stroke: var(--raspberry-background) 0.03em;
+    text-shadow: 0 5px 0px var(--golden-light);
 }
 
 #bandmates {
     width: 680px;
     height: 280px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 #bandmates img {
