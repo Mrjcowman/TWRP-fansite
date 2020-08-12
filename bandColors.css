@@ -15,8 +15,8 @@ div.docSung {
     background-color: orangered;
     background-color: var(--doc-sung-color);
 
-    border-color: orangered;
-    border-color: var(--doc-sung-color);
+    /* border-color: orangered;
+    border-color: var(--doc-sung-color); */
 }
 
 span.meouch, h1.meouch, h2.meouch, strong.meouch {
@@ -28,8 +28,8 @@ div.meouch {
     background-color: cornflowerblue;
     background-color: var(--meouch-color);
 
-    border-color: cornflowerblue;
-    border-color: var(--meouch-color);
+    /* border-color: cornflowerblue;
+    border-color: var(--meouch-color); */
 }
 
 span.phobos, h1.phobos, h2.phobos, strong.phobos {
@@ -41,8 +41,8 @@ div.phobos {
     background-color: goldenrod;
     background-color: var(--phobos-color);
 
-    border-color: goldenrod;
-    border-color: var(--phobos-color);
+    /* border-color: goldenrod;
+    border-color: var(--phobos-color); */
 }
 
 span.havve, h1.havve, h2.havve, strong.havve {
@@ -54,6 +54,6 @@ div.havve {
     background-color: slategray;
     background-color: var(--havve-color);
 
-    border-color: slategray;
-    border-color: var(--havve-color);
+    /* border-color: slategray;
+    border-color: var(--havve-color); */
 }
