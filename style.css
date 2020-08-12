@@ -30,6 +30,8 @@ hr {
     border-color: #591e3a;
     color: #D2C6C8;
     background-color: #591e3a;
+
+    box-shadow: 0 10px 20px 5px #BF5A62;
 }
 
 .content h1 {
