@@ -6,7 +6,7 @@
     --havve-color: #8DA7C2;
 }
 
-span.docSung, h1.docSung, h2.docSung, strong.docSung {
+span.docSung, h1.docSung, h2.docSung, h3.docSung, strong.docSung {
     color: orangered;
     color: var(--doc-sung-color);
 }
@@ -19,7 +19,7 @@ div.docSung {
     border-color: var(--doc-sung-color); */
 }
 
-span.meouch, h1.meouch, h2.meouch, strong.meouch {
+span.meouch, h1.meouch, h2.meouch, h3.meouch, strong.meouch {
     color: cornflowerblue;
     color: var(--meouch-color);
 }
@@ -32,7 +32,7 @@ div.meouch {
     border-color: var(--meouch-color); */
 }
 
-span.phobos, h1.phobos, h2.phobos, strong.phobos {
+span.phobos, h1.phobos, h2.phobos, h3.phobos, strong.phobos {
     color: goldenrod;
     color: var(--phobos-color);
 }
@@ -45,7 +45,7 @@ div.phobos {
     border-color: var(--phobos-color); */
 }
 
-span.havve, h1.havve, h2.havve, strong.havve {
+span.havve, h1.havve, h2.havve, h3.havve, strong.havve {
     color: slategray;
     color: var(--havve-color);
 }
